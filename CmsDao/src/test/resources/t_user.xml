@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<T_User ID="1" UserName="admin1" PassWord="123" 
+		NickName="admin1" Email="admin1@admin.com" Status="1" Phone="110"
+		CreateTime="2010-12-12"/>
+	<T_User ID="2" UserName="admin2" PassWord="123" 
+		NickName="admin1" Email="admin1@admin.com" Status="1" Phone="110"
+		CreateTime="2010-12-12"/>
+	<T_User ID="3" UserName="admin3" PassWord="123" 
+		NickName="admin1" Email="admin1@admin.com" Status="1" Phone="110"
+		CreateTime="2010-12-12"/>
+	
+	<T_Group ID="1" GroupName="财务处" Remark="负责财务部门的网页"/>
+	<T_Group ID="2" GroupName="计科系" Remark="负责财务部门的网页"/>
+	<T_Group ID="3" GroupName="宣传部" Remark="负责财务部门的网页"/>
+	
+	<T_Role ID="1" Name="管理员" RoleType="ROLE_ADMIN"/>
+	<T_Role ID="2" Name="文章发布人员" RoleType="ROLE_PUBLISH"/>
+	<T_Role ID="3" Name="文章审核人员" RoleType="ROLE_AUDIT"/>
+	
+	<T_UserRole ID="1" Uid="1" Rid="1"/>
+	<T_UserRole ID="2" Uid="2" Rid="2"/>
+	<T_UserRole ID="3" Uid="2" Rid="3"/>
+	<T_UserRole ID="4" Uid="3" Rid="2"/>
+	
+	<T_UserGroup ID="1" Uid="2" Gid="1"/>
+	<T_UserGroup ID="2" Uid="2" Gid="2"/>
+	<T_UserGroup ID="3" Uid="2" Gid="3"/>
+	<T_UserGroup ID="4" Uid="3" Gid="1"/>
+	<T_UserGroup ID="5" Uid="3" Gid="3"/>
+</dataset>
