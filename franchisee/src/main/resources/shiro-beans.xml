@@ -131,7 +131,8 @@
 	        	/admin/**=authc,resourceCheckFilter
 				/login=anon
 				/logout=logoutFilter
-				/** = authc
+
+				
 	        </value>
 	    </property>
 	</bean>

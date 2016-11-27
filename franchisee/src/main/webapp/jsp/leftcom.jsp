@@ -27,7 +27,7 @@
 </head>
 <body>
 	
-      <div class="tpl-left-nav tpl-left-nav-hover">
+      <div class="tpl-left-nav tpl-left-nav-hover" style="display: block;">
             <div class="tpl-left-nav-list"  id="div01">
                 <ul class="tpl-left-nav-menu">
                     <li class="tpl-left-nav-item">

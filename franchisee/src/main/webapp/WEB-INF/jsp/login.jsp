@@ -20,7 +20,10 @@
   <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/app.css">
   <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/layer/mobile/need/layer.css">	
-  
+  	<script type="text/javascript"> 
+if (window != top) 
+top.location.href = location.href; 
+</script>
 </head>
 
 <body data-type="login">
